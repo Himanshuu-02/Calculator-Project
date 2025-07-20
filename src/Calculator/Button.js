@@ -12,6 +12,9 @@ function Button() {
   const Calculate = () => {
     setresult(eval(result).toString());
   };
+  const crossHandle=()=>{
+    setresult(result.slice(0,-1))
+  }
 
   return (
     <div>
@@ -35,7 +38,8 @@ function Button() {
       <input type="button" value="/" className="button" onClick={handleClick} />
       <input type="button" value="%" className="button" onClick={handleClick} />
       <input type="button" value="." className="button" onClick={handleClick} />
-      <input
+      <div className="HandleButton">
+        <input
         type="button"
         value="Clear"
         className="button button1"
@@ -47,6 +51,13 @@ function Button() {
         className="button button1"
         onClick={Calculate}
       />
+      <input type="button"
+      value="x"
+      className="button button1"
+      onClick={crossHandle} 
+      />
+      </div>
+
     </div>
   );
 }
