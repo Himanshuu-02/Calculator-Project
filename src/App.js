@@ -1,20 +1,22 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 
-import Output from './Calculator/Output';
+import './App.css'
+
 import Button from './Calculator/Button';
+import ToDolist from './Todoist/ToDolist';
+
+
+
+
 
 function App() {
   
   return (
     <div className="App">
-      <div className='calc'>
-         {/* <Output/>  */}
-        <Button />
-        
-        
-
+       <div className='calc'>
+        <Button />    
       </div>
+      <ToDolist/>
      
     </div>
   );

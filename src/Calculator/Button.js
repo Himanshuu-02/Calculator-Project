@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Calc.css";
+import "./Calc.css";
 
 function Button() {
   const [result, setresult] = useState("");
@@ -15,7 +15,6 @@ function Button() {
   const crossHandle=()=>{
     setresult(result.slice(0,-1))
   }
-
   return (
     <div>
       <div>
@@ -57,6 +56,8 @@ function Button() {
       onClick={crossHandle} 
       />
       </div>
+      
+
 
     </div>
   );

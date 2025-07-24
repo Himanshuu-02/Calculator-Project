@@ -1,0 +1,141 @@
+/* ul li{
+    color: white;
+}
+.taskbutton {
+    border: 1px solid;
+    padding: 16px;
+    margin-left: 39px;
+    border-radius: 17px;
+    background-color: blue;
+    color: white;
+}
+.deletebutton{
+    border: 1px solid;
+    padding: 16px;
+    border-radius: 17px;
+    background-color: blue;
+    color: white;
+
+}
+.taskstyle{
+    /* border: 1px solid; */
+    /* height: 57px;
+    width: 304px;
+    border-radius: 18px;
+    align-items: center;
+    text-align: center;
+
+}
+ul{
+    gap: 7%;
+} */ 
+
+
+
+/* List.css */
+
+body {
+  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.taskstyle {
+  width: 250px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.taskbutton {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.taskbutton:hover {
+  background-color: #45a049;
+}
+.taskbutton:disabled{
+  opacity:0.5;
+  cursor:not-allowed
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 80%;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+li {
+  background-color: #fff;
+  padding: 14px 18px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.01);
+}
+
+.deletebutton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deletebutton:hover {
+  background-color: #e60000;
+}
+
+@media (max-width: 500px) {
+  .taskstyle {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .taskbutton {
+    width: 100%;
+  }
+
+  li {
+    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .deletebutton {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
