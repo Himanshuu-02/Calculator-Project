@@ -1,4 +1,4 @@
-# Here i created a Calculator app by using React 
+# Here i created a Calculator and ToDo List app by using React 
 Author- Himanshu
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
